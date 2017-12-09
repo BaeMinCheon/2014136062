@@ -11,4 +11,4 @@
 
 [PBL 2번 문제] https://youtu.be/hFT2d28FYZA > 녹색등 20초 유지, 황색등 5초 간 점멸, 적색등 25초 유지, 보행자 신호는 위아래 신호등과 연결
 
-[팀프로젝트] 무드등
+[팀프로젝트] https://youtu.be/as7CkhTkH24
