@@ -61,16 +61,16 @@ void loop()
   //To check battery level
   int batteryVal = analogRead(BATTERY);
   float voltage = 2 * batteryVal * (5.f / 1023.f);
-  
+  Serial.println(voltage);
   //0% ~ 30%
-  if (voltage < 4.32f)
+  if (voltage < 4.70f)
   {
     analogWrite(RGB_RED, 255);
     analogWrite(RGB_GREEN, 0);
     analogWrite(RGB_BLUE, 0);
   }
   //30% ~ 65%
-  else if (voltage < 4.34f)
+  else if (voltage < 4.75f)
   {
     analogWrite(RGB_RED, 0);
     analogWrite(RGB_GREEN, 255);
